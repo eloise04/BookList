@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "RN1-Book",
+    "slug": "RN1-Book",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/book.png",
+    "splash": {
+      "image": "./assets/book.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.book.book",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.book.book"
+    },
+    "description": "Une application permettant de lister des livres, ainsi que leurs titres, leurs description, et la possibilité de les ajouter en Favoris. Avec un système d'authentification, d'enregistrement, et un profil accessible sur l'application."
+  }
+}
